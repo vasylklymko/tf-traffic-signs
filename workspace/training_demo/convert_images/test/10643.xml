@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>test</folder>
+  <filename>10643.jpg</filename>
+  <size>
+    <width>36</width>
+    <height>38</height>
+  </size>
+  <object>
+    <name>No entry</name>
+    <bndbox>
+      <xmin>6</xmin>
+      <ymin>5</ymin>
+      <xmax>31</xmax>
+      <ymax>33</ymax>
+    </bndbox>
+  </object>
+</annotation>

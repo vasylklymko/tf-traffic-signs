@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>train/17</folder>
+  <filename>00017_00022_00010.jpg</filename>
+  <size>
+    <width>43</width>
+    <height>43</height>
+  </size>
+  <object>
+    <name>No entry</name>
+    <bndbox>
+      <xmin>6</xmin>
+      <ymin>6</ymin>
+      <xmax>38</xmax>
+      <ymax>38</ymax>
+    </bndbox>
+  </object>
+</annotation>

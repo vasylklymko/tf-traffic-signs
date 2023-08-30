@@ -1,0 +1,7 @@
+/models/
+/addons/
+workspace/training_demo/pre-trained-models/
+/workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*
+!/workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*.config
+/workspace/training_demo/exported-models/my_model/*
+!/workspace/training_demo/exported-models/my_model/*.config
