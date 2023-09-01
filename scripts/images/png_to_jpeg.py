@@ -6,6 +6,7 @@ import cv2
 
 # Convert PNG to JPEG
 def convert_png_to_jpeg(input_path, output_path, quality=95):
+    
     try:
         image = cv2.imread(input_path)
         output_path = output_path.replace(".png", ".jpg")
