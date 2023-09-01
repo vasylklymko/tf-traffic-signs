@@ -1,0 +1,12 @@
+<annotation>
+  <filename>no_entry_image_039.jpg</filename>
+  <object>
+    <name>No entry</name>
+    <bndbox>
+      <xmin>164</xmin>
+      <ymin>44</ymin>
+      <xmax>233</xmax>
+      <ymax>114</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>no_entry</folder>
+	<filename>no_entry_image_063.jpg</filename>
+	<path>C:\Projects\TFOD\workspace\training_demo\images\no_entry\no_entry_image_063.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>310</width>
+		<height>162</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No entry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>23</ymin>
+			<xmax>279</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+</annotation>
