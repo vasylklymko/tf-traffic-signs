@@ -1,1 +1,5 @@
 tensorflow==2.5.0
+Cython==0.29.36
+protobuf==3.19.6
+pycocotools git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+
