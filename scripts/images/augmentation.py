@@ -4,10 +4,10 @@ import cv2
 from lxml import etree
 
 # Input and output directories
-input_image_dir = "workspace/training_demo/images/no_entry/"
-input_annotation_dir = "workspace/training_demo/images/no_entry/"
-output_image_dir = "workspace/training_demo/images/no_entry_augmented/"
-output_annotation_dir = "workspace/training_demo/images/no_entry_augmented/"
+input_image_dir = "workspace/training_demo/new_image/no_entry/"
+input_annotation_dir = "workspace/training_demo/new_image/no_entry/"
+output_image_dir = "workspace/training_demo/new_image/no_entry_augmented/"
+output_annotation_dir = "workspace/training_demo/new_image/no_entry_augmented/"
 
 # Create output directories if they don't exist
 os.makedirs(output_image_dir, exist_ok=True)
@@ -24,6 +24,9 @@ def parse_annotation(xml_file):
     tree = etree.parse(xml_file)
     root = tree.getroot()
     filename = root.find("filename").text
+    size_elem = root.find("size")
+    width = int(size_elem.find("width").text)
+    height = int(size_elem.find("height").text)
     objects = []
     for obj in root.findall("object"):
         label = obj.find("name").text
@@ -33,16 +36,16 @@ def parse_annotation(xml_file):
         xmax = int(bbox.find("xmax").text)
         ymax = int(bbox.find("ymax").text)
         objects.append((label, (xmin, ymin, xmax, ymax)))
-    return filename, objects
+    return filename, width, height, objects
 
 # Function to generate augmented images and annotations
 def augment_image_and_annotation(image_path, annotation_path, output_dir):
-    # Load the image
+     # Load the image
     image = cv2.imread(image_path)
     height, width, _ = image.shape
 
     # Parse the original annotation
-    filename, objects = parse_annotation(annotation_path)
+    filename, original_width, original_height, objects = parse_annotation(annotation_path)
 
     for i in range(num_augmentations):
         # Create a copy of the original image and annotation
@@ -84,14 +87,23 @@ def augment_image_and_annotation(image_path, annotation_path, output_dir):
 
         # Generate and save augmented annotation XML
         output_xml_path = os.path.join(output_dir, f"{filename.split('.')[0]}_{i}.xml")
-        generate_annotation_xml(filename, augmented_objects, output_xml_path)
+        generate_annotation_xml(f"{filename.split('.')[0]}_{i}.jpg", int(width * scale_factor), int(height * scale_factor), augmented_objects, output_xml_path)
 
 # Function to generate and save annotation XML
-def generate_annotation_xml(filename, objects, output_xml_path):
+def generate_annotation_xml(filename, width, height, objects, output_xml_path):
     root = etree.Element("annotation")
     filename_elem = etree.Element("filename")
     filename_elem.text = filename
     root.append(filename_elem)
+
+    size_elem = etree.Element("size")
+    width_elem = etree.Element("width")
+    height_elem = etree.Element("height")
+    width_elem.text = str(width)
+    height_elem.text = str(height)
+    size_elem.append(width_elem)
+    size_elem.append(height_elem)
+    root.append(size_elem)
 
     for obj in objects:
         label, bbox = obj
