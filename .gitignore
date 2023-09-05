@@ -11,3 +11,4 @@
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_2/*.config
 /workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
 !/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*.config
+/workspace/training_demo/new_image/
