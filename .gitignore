@@ -9,7 +9,7 @@ idea.zip
 /workspace/training_demo/43_convert_images/
 
 # Annotations
-/workspace/annotations/*.record
+#/workspace/annotations/*.record
 
 # Tensorflow Object Detection API
 /models/
