@@ -1,23 +1,48 @@
+
+# Environment
+/.idea/
+idea.zip
+
+# Image folders
+/workspace/training_demo/merged_images/
+/workspace/training_demo/new_image/
+
+# Annotations
+/workspace/annotations/*.record
+
+# Tensorflow Object Detection API
 /models/
+
+# Exported model folders
 /workspace/training_demo/exported-models/my_model/*
 !/workspace/training_demo/exported-models/my_model/*.config
 /workspace/training_demo/exported-models/my_model_1/*
 !/workspace/training_demo/exported-models/my_model_1/*.config
+workspace/training_demo/exported-models/my_model_2/*
+!/workspace/training_demo/exported-models/my_model_2/*.config
+/workspace/training_demo/exported-models/my_model_3/*
+!/workspace/training_demo/exported-models/my_model_3/*.config
+/workspace/training_demo/exported-models/my_model_4/*
+!/workspace/training_demo/exported-models/my_model_4/*.config
+/workspace/training_demo/exported-models/my_model_5/*
+!/workspace/training_demo/exported-models/my_model_5/*.config
+
+# Trained model folders
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*.config
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn_1/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_1/*.config
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn_2/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_2/*.config
-/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
-!/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*.config
-/workspace/training_demo/new_image/
-/.idea/
-idea.zip
-/workspace/training_demo/exported-models/my_model_2/*
-!/workspace/training_demo/exported-models/my_model_2/*.config
-/workspace/training_demo/exported-models/my_model_3/*
-!/workspace/training_demo/exported-models/my_model_3/*.config
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn_3/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_3/*.config
-/workspace/training_demo/merged_images/
+/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_4/*
+!/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_4/*.config
+/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_5/*
+!/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_5/*.config
+
+# Pre-trained model folders
+/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
+!/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*.config
+
+
