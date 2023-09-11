@@ -6,6 +6,7 @@ idea.zip
 # Image folders
 /workspace/training_demo/merged_images/
 /workspace/training_demo/new_image/
+/workspace/training_demo/43_convert_images/
 
 # Annotations
 /workspace/annotations/*.record
