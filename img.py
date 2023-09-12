@@ -7,7 +7,7 @@ from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_5" + "/saved_model"
+PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_6" + "/saved_model"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/images/testing"
 #PATH_TO_CFG = 'workspace/training_demo/exported-models/my_model/pipeline.config'
@@ -85,10 +85,10 @@ for image_path in IMAGE_PATHS:
           detections['detection_scores'],
           category_index,
           line_thickness = 2,
-          use_normalized_coordinates=False,
+          use_normalized_coordinates=True,
           max_boxes_to_draw=10,
-          min_score_thresh=.3,
-          agnostic_mode=False)
+          min_score_thresh=.5,
+          agnostic_mode= False)
     
     
     time.sleep(3)
