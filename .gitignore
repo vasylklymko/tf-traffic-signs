@@ -2,6 +2,7 @@
 # Environment
 /.idea/
 idea.zip
+/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7.zip
 
 # Image folders
 /workspace/training_demo/merged_images/
@@ -28,6 +29,8 @@ workspace/training_demo/exported-models/my_model_2/*
 !/workspace/training_demo/exported-models/my_model_5/*.config
 /workspace/training_demo/exported-models/my_model_6/*
 !/workspace/training_demo/exported-models/my_model_6/*.config
+/workspace/training_demo/exported-models/my_model_7/*
+!/workspace/training_demo/exported-models/my_model_7/*.config
 
 # Trained model folders
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*
@@ -51,5 +54,6 @@ workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7/*
 # Pre-trained model folders
 /workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
 !/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*.config
+
 
 
