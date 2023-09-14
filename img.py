@@ -7,7 +7,7 @@ from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_7" + "/saved_model"
+PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_9" + "/saved_model"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/images/testing"
 #PATH_TO_CFG = 'workspace/training_demo/exported-models/my_model/pipeline.config'
