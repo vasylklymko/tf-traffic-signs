@@ -35,6 +35,8 @@ workspace/training_demo/exported-models/my_model_2/*
 !/workspace/training_demo/exported-models/my_model_8/*.config
 /workspace/training_demo/exported-models/my_model_9/*
 !/workspace/training_demo/exported-models/my_model_9/*.config
+/workspace/training_demo/exported-models/my_model_10/*
+!/workspace/training_demo/exported-models/my_model_10/*.config
 
 # Trained model folders
 /workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*
@@ -59,6 +61,10 @@ workspace/training_demo/models/my_ssd_resnet50_v1_fpn_9/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_9/*.config
 workspace/training_demo/models/my_ssd_resnet50_v1_fpn_10/*
 !/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_10/*.config
+workspace/training_demo/models/my_ssd_resnet50_v1_fpn_11/*
+!/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_11/*.config
+workspace/training_demo/models/my_ssd_resnet50_v1_fpn_part/*
+!/workspace/training_demo/models/my_ssd_resnet50_v1_fpn_part1/*.config
 
 # Pre-trained model folders
 /workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
