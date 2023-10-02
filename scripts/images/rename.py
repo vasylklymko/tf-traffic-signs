@@ -1,6 +1,6 @@
 import os
 
-def rename_images_in_folder(folder_path, prefix="no_entry_image_", start_number=1):
+def rename_images_in_folder(folder_path, prefix="roundabout_mandatory_image_", start_number=1):
     try:
         if not os.path.exists(folder_path):
             print(f"Folder '{folder_path}' does not exist.")
@@ -25,5 +25,5 @@ def rename_images_in_folder(folder_path, prefix="no_entry_image_", start_number=
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    folder_path = "workspace\\training_demo\\images\\no_entry" 
+    folder_path = "workspace\\training_demo\\new_image\\roundabout_mandatory" 
     rename_images_in_folder(folder_path)
