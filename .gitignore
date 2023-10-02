@@ -7,6 +7,7 @@ idea.zip
 # Image folders
 /workspace/training_demo/merged_images/
 /workspace/training_demo/new_image/
+/workspace/training_demo/43_convert_images/
 
 # Annotations
 *.record
@@ -113,6 +114,3 @@ workspace/training_demo/models/my_ssd_resnet50_v1_fpn_22/*
 # Pre-trained model folders
 /workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*
 !/workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/*.config
-
-
-
