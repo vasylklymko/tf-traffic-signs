@@ -1,0 +1,38 @@
+,,,Images/classified,34/5
+,,,Images/classified,30/5
+,,,Images/classified,20/4
+,,,Images/classified,10/4
+workspace/training_demo/new_image/test\no_entry_image_009.jpg,No entry,Speed limit (50km/h),0.4441447,False
+workspace/training_demo/new_image/test\no_entry_image_015.jpg,No entry,No entry,0.93196577,True
+workspace/training_demo/new_image/test\no_entry_image_037.jpg,No entry,No entry,0.96637934,True
+workspace/training_demo/new_image/test\no_entry_image_043.jpg,No entry,Speed limit (80km/h),0.41179338,False
+workspace/training_demo/new_image/test\no_entry_image_048.jpg,No entry,No entry,0.6814598,True
+workspace/training_demo/new_image/test\no_entry_image_073.jpg,No entry,No entry,0.493385,True
+workspace/training_demo/new_image/test\no_entry_image_075.jpg,No entry,Keep right,0.3865937,False
+workspace/training_demo/new_image/test\no_vehicles_image_003.jpg,No vehicles,Speed limit (80km/h),0.5640714,False
+workspace/training_demo/new_image/test\no_vehicles_image_015.jpg,No vehicles,Roundabout mandatory,0.47439077,False
+workspace/training_demo/new_image/test\no_vehicles_image_025.jpg,No vehicles,Speed limit (80km/h),0.6395428,False
+workspace/training_demo/new_image/test\no_vehicles_image_030.jpg,No vehicles,Speed limit (80km/h),0.67649513,False
+workspace/training_demo/new_image/test\priority_road_image_008.jpg,Priority road,Roundabout mandatory,0.49697286,False
+workspace/training_demo/new_image/test\priority_road_image_013.jpg,Priority road,No entry,0.36291707,False
+workspace/training_demo/new_image/test\priority_road_image_016.jpg,Priority road,Speed limit (80km/h),0.41202047,False
+workspace/training_demo/new_image/test\stop_image_003.jpg,Stop,Speed limit (80km/h),0.30044127,False
+workspace/training_demo/new_image/test\stop_image_005.jpg,Stop,Speed limit (80km/h),0.33502474,False
+workspace/training_demo/new_image/test\stop_image_006.jpg,Stop,Speed limit (50km/h),0.54550964,False
+workspace/training_demo/new_image/test\stop_image_030.jpg,Stop,Speed limit (30km/h),0.40992936,False
+workspace/training_demo/new_image/test\stop_image_038.jpg,Stop,Speed limit (80km/h),0.40113097,False
+workspace/training_demo/new_image/test\stop_image_053.jpg,Stop,Roundabout mandatory,0.5700165,False
+workspace/training_demo/new_image/test\stop_image_076.jpg,Stop,Speed limit (80km/h),0.50731987,False
+workspace/training_demo/new_image/test\stop_image_084.jpg,Stop,Speed limit (80km/h),0.5436301,False
+workspace/training_demo/new_image/test\stop_image_100.jpg,Stop,Speed limit (80km/h),0.3913699,False
+workspace/training_demo/new_image/test\stop_image_110.jpg,Stop,Speed limit (60km/h),0.60808706,False
+workspace/training_demo/new_image/test\stop_image_113.jpg,Stop,Speed limit (80km/h),0.4335693,False
+workspace/training_demo/new_image/test\stop_image_114.jpg,Stop,Speed limit (30km/h),0.402822,False
+workspace/training_demo/new_image/test\yield_image_012.jpg,Stop,Ahead only,0.30630106,False
+workspace/training_demo/new_image/test\yield_image_017.jpg,Yield,Speed limit (80km/h),0.26985654,False
+workspace/training_demo/new_image/test\yield_image_018.jpg,Yield,Road work,0.3518067,False
+workspace/training_demo/new_image/test\yield_image_021.jpg,Yield,Yield,0.417047,True
+workspace/training_demo/new_image/test\yield_image_038.jpg,Yield,Speed limit (80km/h),0.6702078,False
+workspace/training_demo/new_image/test\yield_image_041.jpg,Yield,No entry,0.7164651,False
+workspace/training_demo/new_image/test\yield_image_044.jpg,Yield,Speed limit (80km/h),0.48597884,False
+workspace/training_demo/new_image/test\yield_image_056.jpg,Yield,Speed limit (80km/h),0.7288153,False

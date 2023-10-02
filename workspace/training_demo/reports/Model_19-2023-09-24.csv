@@ -1,0 +1,110 @@
+,,,Images/classified,100/92
+,,,Images/classified,90/82
+,,,Images/classified,80/72
+,,,Images/classified,70/65
+,,,Images/classified,60/56
+,,,Images/classified,50/47
+,,,Images/classified,40/38
+,,,Images/classified,30/29
+,,,Images/classified,20/19
+,,,Images/classified,10/10
+workspace/training_demo/43_convert_images/test\00000.jpg,Veh > 3.5 tons prohibited,Veh > 3.5 tons prohibited,0.6890106,True
+workspace/training_demo/43_convert_images/test\00001.jpg,Speed limit (30km/h),Speed limit (30km/h),0.65886253,True
+workspace/training_demo/43_convert_images/test\00002.jpg,Keep right,Keep right,0.9367477,True
+workspace/training_demo/43_convert_images/test\00003.jpg,Turn right ahead,Turn right ahead,0.79701984,True
+workspace/training_demo/43_convert_images/test\00004.jpg,Right-of-way at intersection,Right-of-way at intersection,0.80781466,True
+workspace/training_demo/43_convert_images/test\00005.jpg,Keep right,Keep right,0.8649537,True
+workspace/training_demo/43_convert_images/test\00006.jpg,General caution,General caution,0.7722927,True
+workspace/training_demo/43_convert_images/test\00007.jpg,Priority road,Priority road,0.7364703,True
+workspace/training_demo/43_convert_images/test\00008.jpg,Road work,Road work,0.706957,True
+workspace/training_demo/43_convert_images/test\00009.jpg,Ahead only,Ahead only,0.62840307,True
+workspace/training_demo/43_convert_images/test\00010.jpg,Priority road,Priority road,0.87856555,True
+workspace/training_demo/43_convert_images/test\00011.jpg,Speed limit (100km/h),Speed limit (100km/h),0.8534401,True
+workspace/training_demo/43_convert_images/test\00012.jpg,Slippery road,Slippery road,0.6113409,True
+workspace/training_demo/43_convert_images/test\00013.jpg,Speed limit (100km/h),Speed limit (100km/h),0.9536412,True
+workspace/training_demo/43_convert_images/test\00014.jpg,Speed limit (70km/h),Speed limit (70km/h),0.7980925,True
+workspace/training_demo/43_convert_images/test\00015.jpg,No passing,No passing,0.89493394,True
+workspace/training_demo/43_convert_images/test\00016.jpg,Double curve,Wild animals crossing,0.5928086,False
+workspace/training_demo/43_convert_images/test\00017.jpg,Dangerous curve right,Dangerous curve right,0.9512059,True
+workspace/training_demo/43_convert_images/test\00018.jpg,Pedestrians,Pedestrians,0.73764557,True
+workspace/training_demo/43_convert_images/test\00019.jpg,Keep right,Keep right,0.91888535,True
+workspace/training_demo/43_convert_images/test\00020.jpg,Speed limit (70km/h),Speed limit (70km/h),0.9584085,True
+workspace/training_demo/43_convert_images/test\00021.jpg,Turn right ahead,Turn right ahead,0.73170066,True
+workspace/training_demo/43_convert_images/test\00022.jpg,No passing,No passing,0.9043549,True
+workspace/training_demo/43_convert_images/test\00023.jpg,Speed limit (60km/h),Speed limit (60km/h),0.936155,True
+workspace/training_demo/43_convert_images/test\00024.jpg,Speed limit (30km/h),Speed limit (30km/h),0.8403868,True
+workspace/training_demo/43_convert_images/test\00025.jpg,Right-of-way at intersection,Right-of-way at intersection,0.6866087,True
+workspace/training_demo/43_convert_images/test\00026.jpg,Yield,Yield,0.74533755,True
+workspace/training_demo/43_convert_images/test\00027.jpg,No passing veh over 3.5 tons,No passing veh over 3.5 tons,0.8264093,True
+workspace/training_demo/43_convert_images/test\00028.jpg,No passing,No passing,0.9003657,True
+workspace/training_demo/43_convert_images/test\00029.jpg,Right-of-way at intersection,Right-of-way at intersection,0.77284217,True
+workspace/training_demo/43_convert_images/test\00030.jpg,Speed limit (80km/h),Speed limit (80km/h),0.9454116,True
+workspace/training_demo/43_convert_images/test\00031.jpg,No entry,No entry,0.96153903,True
+workspace/training_demo/43_convert_images/test\00032.jpg,Turn left ahead,Turn left ahead,0.6539765,True
+workspace/training_demo/43_convert_images/test\00033.jpg,Slippery road,Slippery road,0.5360697,True
+workspace/training_demo/43_convert_images/test\00034.jpg,Speed limit (50km/h),Speed limit (50km/h),0.8441472,True
+workspace/training_demo/43_convert_images/test\00035.jpg,No entry,No entry,0.9775088,True
+workspace/training_demo/43_convert_images/test\00036.jpg,Speed limit (60km/h),Speed limit (60km/h),0.9698701,True
+workspace/training_demo/43_convert_images/test\00037.jpg,Priority road,Priority road,0.87611485,True
+workspace/training_demo/43_convert_images/test\00038.jpg,Veh > 3.5 tons prohibited,Veh > 3.5 tons prohibited,0.637059,True
+workspace/training_demo/43_convert_images/test\00039.jpg,Speed limit (120km/h),Speed limit (80km/h),0.74768686,False
+workspace/training_demo/43_convert_images/test\00040.jpg,Speed limit (100km/h),Speed limit (100km/h),0.90575296,True
+workspace/training_demo/43_convert_images/test\00041.jpg,Beware of ice/snow,Beware of ice/snow,0.71929234,True
+workspace/training_demo/43_convert_images/test\00042.jpg,General caution,General caution,0.54774946,True
+workspace/training_demo/43_convert_images/test\00043.jpg,Priority road,Priority road,0.7592488,True
+workspace/training_demo/43_convert_images/test\00044.jpg,Road narrows on the right,Road narrows on the right,0.49921346,True
+workspace/training_demo/43_convert_images/test\00045.jpg,Road work,Dangerous curve right,0.39766037,False
+workspace/training_demo/43_convert_images/test\00046.jpg,Speed limit (60km/h),Speed limit (60km/h),0.97748744,True
+workspace/training_demo/43_convert_images/test\00047.jpg,No passing veh over 3.5 tons,No passing veh over 3.5 tons,0.90866387,True
+workspace/training_demo/43_convert_images/test\00048.jpg,General caution,General caution,0.44290474,True
+workspace/training_demo/43_convert_images/test\00049.jpg,Speed limit (120km/h),Speed limit (120km/h),0.65521723,True
+workspace/training_demo/43_convert_images/test\00050.jpg,Road work,Right-of-way at intersection,0.42448303,False
+workspace/training_demo/43_convert_images/test\00051.jpg,Yield,Yield,0.666294,True
+workspace/training_demo/43_convert_images/test\00052.jpg,No vehicles,No vehicles,0.5984968,True
+workspace/training_demo/43_convert_images/test\00053.jpg,No passing,No passing,0.8746092,True
+workspace/training_demo/43_convert_images/test\00054.jpg,Yield,Yield,0.798129,True
+workspace/training_demo/43_convert_images/test\00055.jpg,Ahead only,Ahead only,0.7000958,True
+workspace/training_demo/43_convert_images/test\00056.jpg,Speed limit (80km/h),Speed limit (80km/h),0.95174104,True
+workspace/training_demo/43_convert_images/test\00057.jpg,Traffic signals,Traffic signals,0.780867,True
+workspace/training_demo/43_convert_images/test\00058.jpg,No passing,No passing,0.9329966,True
+workspace/training_demo/43_convert_images/test\00059.jpg,Veh > 3.5 tons prohibited,Veh > 3.5 tons prohibited,0.6874565,True
+workspace/training_demo/43_convert_images/test\00060.jpg,Keep right,Keep right,0.81749034,True
+workspace/training_demo/43_convert_images/test\00061.jpg,No passing veh over 3.5 tons,No passing veh over 3.5 tons,0.8479161,True
+workspace/training_demo/43_convert_images/test\00062.jpg,Speed limit (70km/h),Speed limit (70km/h),0.9098503,True
+workspace/training_demo/43_convert_images/test\00063.jpg,No passing,No passing,0.89839,True
+workspace/training_demo/43_convert_images/test\00064.jpg,No vehicles,No vehicles,0.6212623,True
+workspace/training_demo/43_convert_images/test\00065.jpg,No passing,No passing,0.87603444,True
+workspace/training_demo/43_convert_images/test\00066.jpg,Traffic signals,Speed limit (70km/h),0.5544019,False
+workspace/training_demo/43_convert_images/test\00067.jpg,Speed limit (50km/h),Speed limit (50km/h),0.9534056,True
+workspace/training_demo/43_convert_images/test\00068.jpg,Speed limit (80km/h),Speed limit (80km/h),0.89293456,True
+workspace/training_demo/43_convert_images/test\00069.jpg,Children crossing,Children crossing,0.8341643,True
+workspace/training_demo/43_convert_images/test\00070.jpg,Right-of-way at intersection,Right-of-way at intersection,0.8164452,True
+workspace/training_demo/43_convert_images/test\00071.jpg,Road work,Road work,0.85641295,True
+workspace/training_demo/43_convert_images/test\00072.jpg,Beware of ice/snow,Right-of-way at intersection,0.7184447,False
+workspace/training_demo/43_convert_images/test\00073.jpg,Turn left ahead,Turn left ahead,0.5933517,True
+workspace/training_demo/43_convert_images/test\00074.jpg,Speed limit (80km/h),Speed limit (80km/h),0.9087706,True
+workspace/training_demo/43_convert_images/test\00075.jpg,Priority road,Priority road,0.87264377,True
+workspace/training_demo/43_convert_images/test\00076.jpg,Speed limit (30km/h),Speed limit (30km/h),0.6374208,True
+workspace/training_demo/43_convert_images/test\00077.jpg,No passing veh over 3.5 tons,No passing veh over 3.5 tons,0.93255365,True
+workspace/training_demo/43_convert_images/test\00078.jpg,Road work,End of speed limit (80km/h),0.33684373,False
+workspace/training_demo/43_convert_images/test\00079.jpg,Road work,End of speed limit (80km/h),0.53707623,False
+workspace/training_demo/43_convert_images/test\00080.jpg,Double curve,Double curve,0.7016925,True
+workspace/training_demo/43_convert_images/test\00081.jpg,Turn right ahead,Turn right ahead,0.70861363,True
+workspace/training_demo/43_convert_images/test\00082.jpg,Road work,Road work,0.83366245,True
+workspace/training_demo/43_convert_images/test\00083.jpg,Speed limit (100km/h),Speed limit (100km/h),0.9284648,True
+workspace/training_demo/43_convert_images/test\00084.jpg,No passing veh over 3.5 tons,No passing veh over 3.5 tons,0.8036659,True
+workspace/training_demo/43_convert_images/test\00085.jpg,Ahead only,Ahead only,0.7100642,True
+workspace/training_demo/43_convert_images/test\00086.jpg,Speed limit (60km/h),Speed limit (60km/h),0.8780107,True
+workspace/training_demo/43_convert_images/test\00087.jpg,Speed limit (100km/h),Speed limit (100km/h),0.9280941,True
+workspace/training_demo/43_convert_images/test\00088.jpg,Bumpy road,Bumpy road,0.6853398,True
+workspace/training_demo/43_convert_images/test\00089.jpg,Yield,Yield,0.9000076,True
+workspace/training_demo/43_convert_images/test\00090.jpg,Speed limit (60km/h),Speed limit (60km/h),0.9674967,True
+workspace/training_demo/43_convert_images/test\00091.jpg,Speed limit (30km/h),Speed limit (30km/h),0.7590171,True
+workspace/training_demo/43_convert_images/test\00092.jpg,Speed limit (50km/h),Speed limit (50km/h),0.9081826,True
+workspace/training_demo/43_convert_images/test\00093.jpg,Stop,Stop,0.7501911,True
+workspace/training_demo/43_convert_images/test\00094.jpg,Priority road,Priority road,0.8835689,True
+workspace/training_demo/43_convert_images/test\00095.jpg,End speed + passing limits,End speed + passing limits,0.40994358,True
+workspace/training_demo/43_convert_images/test\00096.jpg,Speed limit (60km/h),Speed limit (60km/h),0.9211738,True
+workspace/training_demo/43_convert_images/test\00097.jpg,Keep right,Keep right,0.95750445,True
+workspace/training_demo/43_convert_images/test\00098.jpg,No passing,No passing,0.91486394,True
+workspace/training_demo/43_convert_images/test\00099.jpg,Turn right ahead,Turn right ahead,0.71003354,True

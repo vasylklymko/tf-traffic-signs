@@ -1,0 +1,36 @@
+File Name,Class Label,Detected Class,Probability,Classification
+,,,Images/classified,34/4
+workspace/training_demo/new_image/test\no_entry_image_009.jpg,No entry,Priority road,0.31884876,False
+workspace/training_demo/new_image/test\no_entry_image_015.jpg,No entry,Yield,0.48303387,False
+workspace/training_demo/new_image/test\no_entry_image_037.jpg,No entry,No entry,0.72234726,True
+workspace/training_demo/new_image/test\no_entry_image_043.jpg,No entry,No passing,0.43993497,False
+workspace/training_demo/new_image/test\no_entry_image_048.jpg,No entry,Yield,0.371503,False
+workspace/training_demo/new_image/test\no_entry_image_073.jpg,No entry,Keep right,0.34206486,False
+workspace/training_demo/new_image/test\no_entry_image_075.jpg,No entry,Priority road,0.29221028,False
+workspace/training_demo/new_image/test\no_vehicles_image_003.jpg,No vehicles,Go straight or right,0.42154834,False
+workspace/training_demo/new_image/test\no_vehicles_image_015.jpg,No vehicles,Speed limit (100km/h),0.37858158,False
+workspace/training_demo/new_image/test\no_vehicles_image_025.jpg,No vehicles,Priority road,0.64052314,False
+workspace/training_demo/new_image/test\no_vehicles_image_030.jpg,No vehicles,Keep right,0.42889622,False
+workspace/training_demo/new_image/test\priority_road_image_008.jpg,Priority road,Priority road,0.31228888,True
+workspace/training_demo/new_image/test\priority_road_image_013.jpg,Priority road,Speed limit (80km/h),0.4692235,False
+workspace/training_demo/new_image/test\priority_road_image_016.jpg,Priority road,Keep right,0.30227506,False
+workspace/training_demo/new_image/test\stop_image_003.jpg,Stop,Keep right,0.4259867,False
+workspace/training_demo/new_image/test\stop_image_005.jpg,Stop,Priority road,0.41061166,False
+workspace/training_demo/new_image/test\stop_image_006.jpg,Stop,Priority road,0.4132726,False
+workspace/training_demo/new_image/test\stop_image_030.jpg,Stop,Priority road,0.4053861,False
+workspace/training_demo/new_image/test\stop_image_038.jpg,Stop,Keep right,0.32388598,False
+workspace/training_demo/new_image/test\stop_image_053.jpg,Stop,Priority road,0.47118798,False
+workspace/training_demo/new_image/test\stop_image_076.jpg,Stop,Priority road,0.3584591,False
+workspace/training_demo/new_image/test\stop_image_084.jpg,Stop,Keep right,0.35149756,False
+workspace/training_demo/new_image/test\stop_image_100.jpg,Stop,Priority road,0.5541299,False
+workspace/training_demo/new_image/test\stop_image_110.jpg,Stop,Speed limit (80km/h),0.34749287,False
+workspace/training_demo/new_image/test\stop_image_113.jpg,Stop,Keep right,0.3757899,False
+workspace/training_demo/new_image/test\stop_image_114.jpg,Stop,Priority road,0.35770184,False
+workspace/training_demo/new_image/test\yield_image_012.jpg,Stop,Priority road,0.4573895,False
+workspace/training_demo/new_image/test\yield_image_017.jpg,Yield,No passing veh over 3.5 tons,0.35175058,False
+workspace/training_demo/new_image/test\yield_image_018.jpg,Yield,Road work,0.4879896,False
+workspace/training_demo/new_image/test\yield_image_021.jpg,Yield,Yield,0.58586323,True
+workspace/training_demo/new_image/test\yield_image_038.jpg,Yield,Priority road,0.38939175,False
+workspace/training_demo/new_image/test\yield_image_041.jpg,Yield,End of speed limit (80km/h),0.3461879,False
+workspace/training_demo/new_image/test\yield_image_044.jpg,Yield,Yield,0.31974307,True
+workspace/training_demo/new_image/test\yield_image_056.jpg,Yield,Keep right,0.4161498,False
