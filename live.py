@@ -12,8 +12,8 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model" + "/saved_model"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/images/testing"
-PATH_TO_CFG = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn/pipeline.config'
-PATH_TO_CKPT = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn/'
+PATH_TO_CFG = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7/pipeline.config'
+PATH_TO_CKPT = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7/'
 
 print('Loading model...', end='')
 start_time = time.time()
@@ -25,7 +25,7 @@ detection_model = model_builder.build(model_config=model_config, is_training=Fal
 
 # Restore checkpoint
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
-ckpt.restore(os.path.join(PATH_TO_CKPT, 'ckpt-3')).expect_partial()
+ckpt.restore(os.path.join(PATH_TO_CKPT, 'ckpt-101')).expect_partial()
 
 @tf.function
 def detect_fn(image):
@@ -76,8 +76,8 @@ while True:
           detections['detection_scores'][0].numpy(),
           category_index,
           use_normalized_coordinates=True,
-          max_boxes_to_draw=200,
-          min_score_thresh=.85,
+          max_boxes_to_draw=20,
+          min_score_thresh=.50,
           agnostic_mode=False)
 
     # Display output
