@@ -7,7 +7,7 @@ from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_9" + "/saved_model"
+PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_22" + "/saved_model"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/images/testing"
 #PATH_TO_CFG = 'workspace/training_demo/exported-models/my_model/pipeline.config'
@@ -88,10 +88,10 @@ for image_path in IMAGE_PATHS:
           use_normalized_coordinates=True,
           max_boxes_to_draw=10,
           min_score_thresh=.5,
-          agnostic_mode= False)
+          agnostic_mode=False)
     
     
-    time.sleep(3)
+    time.sleep(1)
     cv2.imshow('Detection', image_np_with_detections)
     print('Done')
     if cv2.waitKey(10) & 0xFF == ord('q'):
