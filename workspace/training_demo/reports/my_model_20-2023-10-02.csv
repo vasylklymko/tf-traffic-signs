@@ -1,0 +1,32 @@
+File Name,Class Label,Detected Class,Probability,Classification
+,,,Images/classified,30/1
+workspace/training_demo/new_image/test\ahead_only_image_013.jpg,Ahead only,Roundabout mandatory,0.35430318,False
+workspace/training_demo/new_image/test\ahead_only_image_015.jpg,Ahead only,Roundabout mandatory,0.49023455,False
+workspace/training_demo/new_image/test\ahead_only_image_016.jpg,Ahead only,Roundabout mandatory,0.51504326,False
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_016.jpg,Beware of ice/snow,Speed limit (60km/h),0.55734384,False
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_022.jpg,Beware of ice/snow,Speed limit (80km/h),0.6049291,False
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_027.jpg,Beware of ice/snow,Speed limit (80km/h),0.8166088,False
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_046.jpg,Beware of ice/snow,Speed limit (80km/h),0.37832808,False
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_047.jpg,Beware of ice/snow,Roundabout mandatory,0.34386304,False
+workspace/training_demo/new_image/test\bumpy_road_image_006.jpg,Bumpy road,Roundabout mandatory,0.26833892,False
+workspace/training_demo/new_image/test\bumpy_road_image_027.jpg,Bumpy road,Speed limit (80km/h),0.5090254,False
+workspace/training_demo/new_image/test\bumpy_road_image_029.jpg,Bumpy road,Speed limit (80km/h),0.67985255,False
+workspace/training_demo/new_image/test\bumpy_road_image_042.jpg,Bumpy road,Speed limit (80km/h),0.60219204,False
+workspace/training_demo/new_image/test\children_crossing_image_025.jpg,Children crossing,Speed limit (80km/h),0.56336474,False
+workspace/training_demo/new_image/test\dangerous_curve_left_image_032.jpg,Dangerous curve left,Speed limit (70km/h),0.49856973,False
+workspace/training_demo/new_image/test\dangerous_curve_left_image_038.jpg,Dangerous curve left,Speed limit (70km/h),0.26610643,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_003.jpg,Dangerous curve right,Dangerous curve right,0.78425646,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_005.jpg,Dangerous curve right,Speed limit (80km/h),0.52775896,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_031.jpg,Dangerous curve right,No passing,0.3596964,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_033.jpg,Dangerous curve right,Speed limit (80km/h),0.4781482,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_036.jpg,Dangerous curve right,Road work,0.34074873,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_042.jpg,Dangerous curve right,Keep right,0.32507014,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_043.jpg,Dangerous curve right,Roundabout mandatory,0.5715226,False
+workspace/training_demo/new_image/test\double_curve_image_003.jpg,Double curve,Speed limit (80km/h),0.6217367,False
+workspace/training_demo/new_image/test\double_curve_image_005.jpg,Double curve,Speed limit (80km/h),0.47922295,False
+workspace/training_demo/new_image/test\double_curve_image_009.jpg,Double curve,Road narrows on the right,0.40000206,False
+workspace/training_demo/new_image/test\double_curve_image_010.jpg,Double curve,Speed limit (80km/h),0.37111673,False
+workspace/training_demo/new_image/test\double_curve_image_012.jpg,Double curve,Keep right,0.52335626,False
+workspace/training_demo/new_image/test\double_curve_image_039.jpg,Double curve,Roundabout mandatory,0.57760423,False
+workspace/training_demo/new_image/test\general_caution_image_002.jpg,General caution,Speed limit (80km/h),0.5270269,False
+workspace/training_demo/new_image/test\general_caution_image_008.jpg,General caution,Turn left ahead,0.4695103,False

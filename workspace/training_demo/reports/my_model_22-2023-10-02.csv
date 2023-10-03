@@ -1,0 +1,42 @@
+File Name,Class Label,Detected Class,Probability,Classification
+,,Images/classified,40/34,85.0% detection
+workspace/training_demo/new_image/test\ahead_only_image_013.jpg,Ahead only,Ahead only,0.93396103,True
+workspace/training_demo/new_image/test\ahead_only_image_015.jpg,Ahead only,Ahead only,0.99615073,True
+workspace/training_demo/new_image/test\ahead_only_image_016.jpg,Ahead only,Ahead only,0.98465794,True
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_016.jpg,Beware of ice/snow,Beware of ice/snow,0.9205994,True
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_022.jpg,Beware of ice/snow,Beware of ice/snow,0.9490755,True
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_027.jpg,Beware of ice/snow,Beware of ice/snow,0.8657432,True
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_046.jpg,Beware of ice/snow,Beware of ice/snow,0.9616076,True
+workspace/training_demo/new_image/test\beware_of_ice_snow_image_047.jpg,Beware of ice/snow,Beware of ice/snow,0.9276072,True
+workspace/training_demo/new_image/test\bumpy_road_image_006.jpg,Bumpy road,Bumpy road,0.82028323,True
+workspace/training_demo/new_image/test\bumpy_road_image_027.jpg,Bumpy road,Bumpy road,0.48695076,True
+workspace/training_demo/new_image/test\bumpy_road_image_029.jpg,Bumpy road,Wild animals crossing,0.56502944,False
+workspace/training_demo/new_image/test\bumpy_road_image_042.jpg,Bumpy road,Bumpy road,0.3022021,True
+workspace/training_demo/new_image/test\children_crossing_image_025.jpg,Children crossing,Children crossing,0.7991135,True
+workspace/training_demo/new_image/test\dangerous_curve_left_image_032.jpg,Dangerous curve left,Dangerous curve left,0.93757623,True
+workspace/training_demo/new_image/test\dangerous_curve_left_image_038.jpg,Dangerous curve left,Dangerous curve left,0.9957783,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_003.jpg,Dangerous curve right,Dangerous curve right,0.9978273,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_005.jpg,Dangerous curve right,Dangerous curve right,0.97205675,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_031.jpg,Dangerous curve right,Dangerous curve right,0.74081194,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_033.jpg,Dangerous curve right,Dangerous curve right,0.8978489,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_036.jpg,Dangerous curve right,Dangerous curve right,0.91706145,True
+workspace/training_demo/new_image/test\dangerous_curve_right_image_042.jpg,Dangerous curve right,Speed limit (70km/h),0.3385075,False
+workspace/training_demo/new_image/test\dangerous_curve_right_image_043.jpg,Dangerous curve right,Dangerous curve right,0.8293603,True
+workspace/training_demo/new_image/test\double_curve_image_003.jpg,Double curve,Double curve,0.8125222,True
+workspace/training_demo/new_image/test\double_curve_image_005.jpg,Double curve,General caution,0.37019905,False
+workspace/training_demo/new_image/test\double_curve_image_009.jpg,Double curve,Double curve,0.988294,True
+workspace/training_demo/new_image/test\double_curve_image_010.jpg,Double curve,Double curve,0.85380584,True
+workspace/training_demo/new_image/test\double_curve_image_012.jpg,Double curve,Double curve,0.9636646,True
+workspace/training_demo/new_image/test\double_curve_image_039.jpg,Double curve,Double curve,0.9492288,True
+workspace/training_demo/new_image/test\general_caution_image_002.jpg,General caution,Pedestrians,0.7074041,False
+workspace/training_demo/new_image/test\general_caution_image_008.jpg,General caution,General caution,0.9317197,True
+workspace/training_demo/new_image/test\general_caution_image_042.jpg,General caution,General caution,0.9972671,True
+workspace/training_demo/new_image/test\go_straight_or_left_image_003.jpg,Go straight or left,Go straight or left,0.9376577,True
+workspace/training_demo/new_image/test\go_straight_or_right_image_002.jpg,Go straight or right,Go straight or right,0.9717698,True
+workspace/training_demo/new_image/test\go_straight_or_right_image_010.jpg,Go straight or right,Go straight or right,0.88359064,True
+workspace/training_demo/new_image/test\go_straight_or_right_image_013.jpg,Go straight or right,Speed limit (80km/h),0.0897567,False
+workspace/training_demo/new_image/test\go_straight_or_right_image_028.jpg,Go straight or right,No entry,0.11233309,False
+workspace/training_demo/new_image/test\go_straight_or_right_image_030.jpg,Go straight or right,Go straight or right,0.95266193,True
+workspace/training_demo/new_image/test\go_straight_or_right_image_045.jpg,Go straight or right,Go straight or right,0.9668229,True
+workspace/training_demo/new_image/test\keep_left_image_005.jpg,Keep left,Keep left,0.9911402,True
+workspace/training_demo/new_image/test\keep_left_image_006.jpg,Keep left,Keep left,0.8809279,True

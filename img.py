@@ -55,7 +55,7 @@ signs =   { 0:'Speed limit (20km/h)',
             41:'End of no passing', 
             42:'End no passing veh > 3.5 tons' }
 
-PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_22" + "/saved_model"
+PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model_22"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/new_image/test"
 #PATH_TO_CFG = 'workspace/training_demo/exported-models/my_model/pipeline.config'
@@ -66,7 +66,7 @@ print('Loading model...', end='')
 start_time = time.time()
 
 # Load saved model and build the detection function
-detect_fn = tf.saved_model.load(PATH_TO_SAVED_MODEL)
+detect_fn = tf.saved_model.load(PATH_TO_SAVED_MODEL + "/saved_model")
 
 end_time = time.time()
 elapsed_time = end_time - start_time
@@ -93,7 +93,7 @@ import cv2
 warnings.filterwarnings('ignore')   # Suppress Matplotlib warnings
 
 # Init the test report
-report = Report("Model_19", PATH_TO_TESTING_IMAGES, PATH_TO_REPORT)
+report = Report(PATH_TO_SAVED_MODEL, PATH_TO_TESTING_IMAGES, PATH_TO_REPORT)
 
 
 for image_path in IMAGE_PATHS:
@@ -175,7 +175,7 @@ for image_path in IMAGE_PATHS:
 
     print(table[:5])
     print('Done')
-    time.sleep(0.5)
+    
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
 
