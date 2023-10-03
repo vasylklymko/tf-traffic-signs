@@ -7,13 +7,15 @@ from object_detection.utils import label_map_util
 from object_detection.utils import config_util
 from object_detection.utils import visualization_utils as viz_utils
 from object_detection.builders import model_builder
+import detect_time
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
 PATH_TO_SAVED_MODEL = "workspace/training_demo/exported-models/my_model" + "/saved_model"
 PATH_TO_LABELS = "workspace/training_demo/annotations/label_map.pbtxt"
 PATH_TO_TESTING_IMAGES = "workspace/training_demo/images/testing"
-PATH_TO_CFG = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7/pipeline.config'
-PATH_TO_CKPT = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_7/'
+PATH_TO_CFG = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_22/pipeline.config'
+PATH_TO_CKPT = 'workspace/training_demo/models/my_ssd_resnet50_v1_fpn_22/'
 
 print('Loading model...', end='')
 start_time = time.time()
@@ -25,7 +27,7 @@ detection_model = model_builder.build(model_config=model_config, is_training=Fal
 
 # Restore checkpoint
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
-ckpt.restore(os.path.join(PATH_TO_CKPT, 'ckpt-101')).expect_partial()
+ckpt.restore(os.path.join(PATH_TO_CKPT, 'ckpt-301')).expect_partial()
 
 @tf.function
 def detect_fn(image):
@@ -44,6 +46,9 @@ category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABE
 
 
 cap = cv2.VideoCapture(0)
+
+frame_counter = 0
+start_time= time.time()
 
 while True:
     # Read frame from camera
@@ -76,9 +81,15 @@ while True:
           detections['detection_scores'][0].numpy(),
           category_index,
           use_normalized_coordinates=True,
-          max_boxes_to_draw=20,
+          max_boxes_to_draw=5,
           min_score_thresh=.50,
           agnostic_mode=False)
+    
+    frame_counter+=1
+    elapsed_time = time.time() - start_time
+    fps = frame_counter / elapsed_time
+
+    image_np_with_detections = detect_time.display_detect_time(image_np_with_detections, fps, "FPS")
 
     # Display output
     cv2.imshow('object detection', cv2.resize(image_np_with_detections, (800, 600)))
