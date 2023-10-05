@@ -8,6 +8,7 @@ idea.zip
 /workspace/training_demo/merged_images/
 /workspace/training_demo/new_image/
 /workspace/training_demo/43_convert_images/
+/workspace/training_demo/10_class_images/
 
 # Annotations
 *.record
